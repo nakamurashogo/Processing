@@ -53,10 +53,10 @@ void draw(){
   //受け取ったデータ（文字列）をint型に変換
   int data = int(str);
   
-  if(data > 1){
+  if(data > 2){
     forward(data);
   }
-  if(data < -1){
+  if(data < -2){
     data = data * (-1);
     back(data);
   }
