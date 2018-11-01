@@ -1,5 +1,5 @@
 import processing.net.*;
-final String text = "text2.txt";
+final String text = "text.txt";
 int textY;
 int fontSize;
 PFont font;
