@@ -1,5 +1,6 @@
 void forward(float speed){
-  speed = speed * 2;
+  speed = speed*0.1;
+  speed = pow(speed, 1.5);
   noStroke();
   fill(200,200,255);
   rect(x,y,speed,24);
